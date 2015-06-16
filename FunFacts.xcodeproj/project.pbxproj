@@ -14,6 +14,7 @@
 		C7497A6D1B2F77CF00F03035 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7497A6C1B2F77CF00F03035 /* Images.xcassets */; };
 		C7497A701B2F77CF00F03035 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7497A6E1B2F77CF00F03035 /* LaunchScreen.xib */; };
 		C7497A7C1B2F77CF00F03035 /* FunFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7497A7B1B2F77CF00F03035 /* FunFactsTests.m */; };
+		C768D5101B30435F00C9296C /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = C768D50F1B30435F00C9296C /* FactBook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C7497A751B2F77CF00F03035 /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7497A7A1B2F77CF00F03035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7497A7B1B2F77CF00F03035 /* FunFactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunFactsTests.m; sourceTree = "<group>"; };
+		C768D50E1B30435F00C9296C /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		C768D50F1B30435F00C9296C /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				C7497A641B2F77CF00F03035 /* AppDelegate.m */,
 				C7497A661B2F77CF00F03035 /* ViewController.h */,
 				C7497A671B2F77CF00F03035 /* ViewController.m */,
+				C768D50E1B30435F00C9296C /* FactBook.h */,
+				C768D50F1B30435F00C9296C /* FactBook.m */,
 				C7497A691B2F77CF00F03035 /* Main.storyboard */,
 				C7497A6C1B2F77CF00F03035 /* Images.xcassets */,
 				C7497A6E1B2F77CF00F03035 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				C7497A681B2F77CF00F03035 /* ViewController.m in Sources */,
 				C7497A651B2F77CF00F03035 /* AppDelegate.m in Sources */,
+				C768D5101B30435F00C9296C /* FactBook.m in Sources */,
 				C7497A621B2F77CF00F03035 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +422,7 @@
 				C7497A811B2F77CF00F03035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7497A821B2F77CF00F03035 /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				C7497A841B2F77CF00F03035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
