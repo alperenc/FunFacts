@@ -15,6 +15,7 @@
 		C7497A701B2F77CF00F03035 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7497A6E1B2F77CF00F03035 /* LaunchScreen.xib */; };
 		C7497A7C1B2F77CF00F03035 /* FunFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7497A7B1B2F77CF00F03035 /* FunFactsTests.m */; };
 		C768D5101B30435F00C9296C /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = C768D50F1B30435F00C9296C /* FactBook.m */; };
+		C7E2267A1B305EA2001778D6 /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E226791B305EA2001778D6 /* ColorWheel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		C7497A7B1B2F77CF00F03035 /* FunFactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunFactsTests.m; sourceTree = "<group>"; };
 		C768D50E1B30435F00C9296C /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
 		C768D50F1B30435F00C9296C /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
+		C7E226781B305EA2001778D6 /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		C7E226791B305EA2001778D6 /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				C7497A671B2F77CF00F03035 /* ViewController.m */,
 				C768D50E1B30435F00C9296C /* FactBook.h */,
 				C768D50F1B30435F00C9296C /* FactBook.m */,
+				C7E226781B305EA2001778D6 /* ColorWheel.h */,
+				C7E226791B305EA2001778D6 /* ColorWheel.m */,
 				C7497A691B2F77CF00F03035 /* Main.storyboard */,
 				C7497A6C1B2F77CF00F03035 /* Images.xcassets */,
 				C7497A6E1B2F77CF00F03035 /* LaunchScreen.xib */,
@@ -228,6 +233,7 @@
 				C7497A651B2F77CF00F03035 /* AppDelegate.m in Sources */,
 				C768D5101B30435F00C9296C /* FactBook.m in Sources */,
 				C7497A621B2F77CF00F03035 /* main.m in Sources */,
+				C7E2267A1B305EA2001778D6 /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
